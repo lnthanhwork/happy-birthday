@@ -309,7 +309,6 @@ export default function Home() {
           fireworks.splice(i, 1);
         }
       }
-      //scene.getObjectByName('Birthday_Cake_0')!.rotation.y += 0.01;
       renderer.render(scene, camera);
     }
 
